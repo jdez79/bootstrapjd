@@ -1,0 +1,54 @@
+/* Basic layout */
+body {
+  
+  background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, nav, main, aside, footer {
+    padding: 20px;
+    color: white;
+  }
+  
+  .header { background-color: white; }
+  .navbar { background-color: white; }
+  .content { background-color: white;}
+  .sidebar { background-color: white; flex: 1; }
+  .footer { background-color: white; }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  main {
+    display: flex;
+    flex: 1;
+  }
+  
+  /* Add transition to buttons */
+  button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+  
+    main {
+      flex-direction: column;
+    }
+  }

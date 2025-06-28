@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navigation Bar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5 pt-5">
+
+        <!-- User Registration Form -->
+        <h2 class="text-center text-primary mt-5">Register a New User</h2>
+        <form class="border p-4 shadow-sm bg-light">
+            <div class="row">
+            <div class="col-md-6">
+            <input type="text" class="form-control mb-3" placeholder="First Name">
+            </div>
+            <div class="col-md-6">
+            <input type="text" class="form-control mb-3" placeholder="Last Name">
+            </div>
+            </div>
+            <input type="email" class="form-control mb-3" placeholder="Email Address" required>
+            <input type="password" class="form-control mb-3" placeholder="Password" required>
+            <select class="form-select mb-3">
+                <option selected>Terms of Use Agreement</option>
+                <option value="admin">I Agree</option>
+                <option value="user">I Do Not Agree</option>
+            </select>
+            <button class="btn btn-success w-100">Add User</button>
+        </form>
+
+        <!-- User Table -->
+        <h2 class="text-center text-primary mt-5">User List</h2>
+        <div class="table-responsive">
+        <table class="table table-striped table-hover border mt-3">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bob Marley</td>
+                    <td>bmarley@rasta.com</td>
+                    <td>Singer</td>
+                    <td class="text-success">Active</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Robert Smith</td>
+                    <td>rsmith@thecure.com</td>
+                    <td>Singer</td>
+                    <td class="text-muted">Inactive</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+    
+<!-- Bootstrap Image Section -->
+<div class="container-fluid p-4 bg-light text-center">
+    <h2 class="text-center text-primary mt-5">Image Section</h2>
+    <!-- Responsive Dog Image -->
+    <img src="https://placedog.net/1200/400" alt="Cute dog" class="img-fluid mb-4" />
+  
+    <!-- Circular Dog Image -->
+    <img src="https://placedog.net/200/200?id=2" alt="Round cute dog" class="rounded-circle mb-4" />
+  
+    <!-- Buttons -->
+    <div class="d-flex justify-content-center gap-3">
+      <button class="btn btn-primary">Always Visible</button>
+      <button class="btn btn-secondary d-none d-md-block">Hidden on Small Screens</button>
+    </div>
+  </div>
+</body>
+</html>

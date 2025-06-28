@@ -1,0 +1,15 @@
+ _____                                   _   _             _   
+|_   _|                                 | | | |           | |  
+  | |_ __ ___  __ _ ___ _   _ _ __ ___  | |_| |_   _ _ __ | |_ 
+  | | '__/ _ \/ _` / __| | | | '__/ _ \ |  _  | | | | '_ \| __|
+  | | | |  __/ (_| \__ \ |_| | | |  __/ | | | | |_| | | | | |_ 
+  \_/_|  \___|\__,_|___/\__,_|_|  \___| \_| |_/\__,_|_| |_|\__|
+
+
+You have started a Terminal Shell treasure hunt.  You will follow the clues and navigate this system only using Unix terminal commands.  
+
+We are going to view the contents of a file called next.txt in the Terminal. To view a text file, use the more command...
+
+In the terminal key the following:
+
+more next.txt

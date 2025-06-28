@@ -1,0 +1,20 @@
+           ."""-.
+          /      \
+          |  _..--'-.
+          >.`__.-"";"`
+         / /(     ^\
+         '-`)     =|-.
+          /`--.'--'   \ .-.
+        .'`-._ `.\    | J /
+       /      `--.|   \__/
+ 
+
+Elementary, My Dear! You found and opened the last file in this folder. Now we will see if you can navigate to other files.
+
+The ls command shows you files and folders.  There is a folder called North. To change directories (or folders) you use the cd command.  
+
+To to go to the North directory key in the following command:
+
+cd North
+
+Then open the file that is in the North folder using only Unix commands.
